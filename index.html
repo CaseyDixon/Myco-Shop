@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <meta charset="utf-8">
+        <title>Mycology Store</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="main-header">
+                <div class="logo">
+                        <a href="#">
+                            <img src="img/Myco_Shop_logo.svg" alt="myco shop logo">
+                        </a>
+                </div>
+                <div class="burger" onclick="toggleNav()">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <nav class="nav">
+                    <a class="nav-btn" href="#">Look Book</a>
+                    <a class="nav-btn" href="#">Men's</a>
+                    <a class="nav-btn" href="#">Women's</a>
+                    <a class="nav-btn" href="#">Sale!</a>
+                    <a class="nav-btn" href="#">Find a Store</a>
+                </nav>
+            </header>
+
+            <main class="content-area">
+                <div class="product">
+                    <img class="prod-img" src="img/morel.jpg" alt="morel mushroom">
+                    <span class="overlay"></span>
+                </div>
+                <div class="prod-img-gallery">
+                    <span class="prod-img-toggle"></span>
+                    <span class="prod-img-toggle"></span>
+                    <span class="prod-img-toggle"></span>
+                    <span class="prod-img-toggle"></span>
+                    <span class="prod-img-toggle"></span>
+                
+                    <!-- <img class="morels-imgs img1" src="img/morel.jpg" alt="morel mushroom growing">
+                    <img class="morels-imgs img2" src="img/morels_in_basket.jpg" alt="morels collected in a basket">
+                    <img class="morels-imgs img3" src="img/morels_on_ground.jpg" alt="halved morels on pine needles">
+                    <img class="morels-imgs img4" src="img/morel_spores.jpg" alt="spores of the morel">
+                    <img class="morels-imgs img5" src="img/asparagus-morels.jpg" alt="prepared meal of sauteed asparagus and morels"> -->
+                </div>
+                <div class="prod-description">
+                    <h5 class="prod-order">Cup Fungi &amp; Allies</h5>
+                    <h1 class="prod-name">Morel</h1>
+                    <p>Hail me Ishmael. Some lightyears ago–never mind how long precisely–having 
+                    little or no credit in my cred-pod, and nothing particular to interest me on 
+                    orbit, I thought I would sail about a little and see the empty part of the 
+                    galaxy. It is a way I have of driving off the spleen and regulating the 
+                    circulation. Whenever I find myself growing lovely about the mouth; whenever it 
+                    is a low-pressure, drizzly November in my cortical stack; whenever I find myself 
+                    compulsively pausing before deathpod warehouses, and bringing up the rear of 
+                    every recycling I meet; and especially whenever my hypos get such an upper hand 
+                    of me, that it requires a strong moral principle to prevent me from deliberately 
+                    stepping into the tube, and methodically knocking people’s hats off–then, I 
+                    account it high time to get to void as soon as I can.</p>
+                </div>    
+                <div class="size">
+                    <div class="size-title">
+                        Amount:
+                    </div>
+                    <ul class="sizes">
+                        <li>1lb</li>
+                        <li>2lb</li>
+                        <li>3lb</li>
+                        <li>4lb</li>
+                        <li class="semi">CUSTOM</li>
+                        <li class="semi">SPORES</li>
+                    </ul>
+                </div>
+                <div class="btns">
+                    <a class="add-btn" href="#">
+                        <span class="price">
+                            $5.99/lb.
+                        </span>
+                        <div class="add-text">
+                            &nbsp;add to basket
+                            <!--<img class="basket" src="img/shopping-basket.svg" alt="shopping basket">--> 
+                        </div>
+                    </a>
+                    <a class="store-locator" href="#">
+                        Find a shop
+                    </a>
+                </div>
+            </main>
+
+            <footer class="main-footer">
+                <div>&copy;2019 Myco Shop</div>
+                <nav class="social-icons">
+                        <a href="#" id="fa-face" class="fa fa-facebook"></a>
+                        <a href="#" id="fa-twit" class="fa fa-twitter"></a>
+                        <a href="#" id="fa-inst" class="fa fa-instagram"></a>
+                </nav>
+            </footer>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
